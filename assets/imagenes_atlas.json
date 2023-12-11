@@ -1,54 +1,33 @@
 {
 	"textures": [
 		{
-			"image": "imagenes",
+			"image": "imagenes.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 840,
-				"h": 850
+				"w": 979,
+				"h": 981
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "cuadro-premio",
+					"filename": "ganador",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 168,
-						"h": 848
+						"w": 634,
+						"h": 416
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 168,
-						"h": 848
+						"x": 8,
+						"y": 6,
+						"w": 624,
+						"h": 401
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 168,
-						"h": 848
-					}
-				},
-				{
-					"filename": "valor-apuesta",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 668,
-						"h": 164
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 668,
-						"h": 164
-					},
-					"frame": {
-						"x": 171,
-						"y": 1,
-						"w": 668,
-						"h": 164
+						"w": 624,
+						"h": 401
 					}
 				},
 				{
@@ -56,125 +35,104 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 340,
-						"h": 213
+						"w": 403,
+						"h": 380
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 340,
-						"h": 213
+						"w": 403,
+						"h": 380
 					},
 					"frame": {
-						"x": 171,
-						"y": 167,
-						"w": 340,
-						"h": 213
+						"x": 1,
+						"y": 404,
+						"w": 403,
+						"h": 380
 					}
 				},
 				{
-					"filename": "nube-02",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 400,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 51,
-						"y": 20,
-						"w": 349,
-						"h": 172
-					},
-					"frame": {
-						"x": 171,
-						"y": 382,
-						"w": 349,
-						"h": 172
-					}
-				},
-				{
-					"filename": "nube-01",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 400,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 325,
-						"h": 166
-					},
-					"frame": {
-						"x": 171,
-						"y": 556,
-						"w": 325,
-						"h": 166
-					}
-				},
-				{
-					"filename": "saldo",
+					"filename": "valor",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 309,
-						"h": 70
+						"w": 251,
+						"h": 194
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 309,
-						"h": 70
+						"w": 251,
+						"h": 194
 					},
 					"frame": {
-						"x": 513,
-						"y": 167,
-						"w": 309,
-						"h": 70
+						"x": 1,
+						"y": 786,
+						"w": 251,
+						"h": 194
 					}
 				},
 				{
-					"filename": "tiempo",
+					"filename": "triangulo-rebote",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 307,
-						"h": 70
+						"w": 189,
+						"h": 300
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 307,
-						"h": 70
+						"w": 189,
+						"h": 300
 					},
 					"frame": {
-						"x": 171,
-						"y": 724,
-						"w": 307,
-						"h": 70
+						"x": 627,
+						"y": 1,
+						"w": 189,
+						"h": 300
 					}
 				},
 				{
-					"filename": "burbuja",
+					"filename": "estrella-luz-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 215,
-						"h": 220
+						"w": 160,
+						"h": 151
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 215,
-						"h": 220
+						"w": 160,
+						"h": 151
 					},
 					"frame": {
-						"x": 522,
-						"y": 239,
-						"w": 215,
-						"h": 220
+						"x": 818,
+						"y": 1,
+						"w": 160,
+						"h": 151
+					}
+				},
+				{
+					"filename": "estrella-luz",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 160,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 151
+					},
+					"frame": {
+						"x": 818,
+						"y": 154,
+						"w": 160,
+						"h": 151
 					}
 				},
 				{
@@ -192,8 +150,8 @@
 						"h": 180
 					},
 					"frame": {
-						"x": 522,
-						"y": 461,
+						"x": 406,
+						"y": 404,
 						"w": 180,
 						"h": 180
 					}
@@ -213,31 +171,52 @@
 						"h": 178
 					},
 					"frame": {
-						"x": 498,
-						"y": 643,
+						"x": 406,
+						"y": 586,
 						"w": 180,
 						"h": 178
 					}
 				},
 				{
-					"filename": "polla",
+					"filename": "fondo-texto",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 168,
-						"h": 49
+						"w": 274,
+						"h": 114
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 168,
-						"h": 49
+						"w": 274,
+						"h": 114
 					},
 					"frame": {
-						"x": 171,
-						"y": 796,
-						"w": 168,
-						"h": 49
+						"x": 254,
+						"y": 786,
+						"w": 274,
+						"h": 114
+					}
+				},
+				{
+					"filename": "saldo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 349,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 349,
+						"h": 70
+					},
+					"frame": {
+						"x": 254,
+						"y": 902,
+						"w": 349,
+						"h": 70
 					}
 				},
 				{
@@ -255,94 +234,514 @@
 						"h": 128
 					},
 					"frame": {
-						"x": 704,
-						"y": 461,
+						"x": 627,
+						"y": 303,
 						"w": 127,
 						"h": 128
 					}
 				},
 				{
-					"filename": "fondo-bola-vacia",
+					"filename": "loading-logo-juega-responsable",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 136,
-						"h": 136
+						"w": 231,
+						"h": 112
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 136,
-						"h": 136
+						"w": 231,
+						"h": 112
 					},
 					"frame": {
-						"x": 680,
-						"y": 643,
-						"w": 136,
-						"h": 136
+						"x": 588,
+						"y": 433,
+						"w": 231,
+						"h": 112
 					}
 				},
 				{
-					"filename": "mano",
+					"filename": "loading-logo-polla",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 95,
-						"h": 77
+						"w": 380,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 369,
+						"h": 101
+					},
+					"frame": {
+						"x": 588,
+						"y": 547,
+						"w": 369,
+						"h": 101
+					}
+				},
+				{
+					"filename": "tiempo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 347,
+						"h": 70
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 95,
+						"w": 347,
+						"h": 70
+					},
+					"frame": {
+						"x": 588,
+						"y": 650,
+						"w": 347,
+						"h": 70
+					}
+				},
+				{
+					"filename": "numero-filas",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 322,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 322,
+						"h": 64
+					},
+					"frame": {
+						"x": 588,
+						"y": 722,
+						"w": 322,
+						"h": 64
+					}
+				},
+				{
+					"filename": "polla",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 195,
+						"h": 55
+					},
+					"frame": {
+						"x": 605,
+						"y": 788,
+						"w": 195,
+						"h": 55
+					}
+				},
+				{
+					"filename": "flecha-luz-disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 137,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 137,
+						"h": 70
+					},
+					"frame": {
+						"x": 802,
+						"y": 788,
+						"w": 137,
+						"h": 70
+					}
+				},
+				{
+					"filename": "flecha-luz",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 137,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 137,
+						"h": 70
+					},
+					"frame": {
+						"x": 605,
+						"y": 845,
+						"w": 137,
+						"h": 70
+					}
+				},
+				{
+					"filename": "juega-responsable",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 62
+					},
+					"frame": {
+						"x": 605,
+						"y": 917,
+						"w": 128,
+						"h": 62
+					}
+				},
+				{
+					"filename": "triangulo-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
 						"h": 75
 					},
 					"frame": {
-						"x": 739,
-						"y": 239,
-						"w": 95,
+						"x": 756,
+						"y": 303,
+						"w": 59,
 						"h": 75
 					}
 				},
 				{
-					"filename": "linea-premio-disabled",
+					"filename": "multiplicador-1",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 54,
-						"h": 6
+						"w": 100,
+						"h": 40
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 54,
-						"h": 6
+						"w": 100,
+						"h": 40
 					},
 					"frame": {
-						"x": 341,
-						"y": 796,
-						"w": 54,
-						"h": 6
+						"x": 817,
+						"y": 307,
+						"w": 100,
+						"h": 40
 					}
 				},
 				{
-					"filename": "linea-premio",
+					"filename": "luz-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 61,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 59,
+						"h": 50
+					},
+					"frame": {
+						"x": 919,
+						"y": 307,
+						"w": 59,
+						"h": 50
+					}
+				},
+				{
+					"filename": "multiplicador-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 40
+					},
+					"frame": {
+						"x": 817,
+						"y": 349,
+						"w": 100,
+						"h": 40
+					}
+				},
+				{
+					"filename": "multiplicador-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 40
+					},
+					"frame": {
+						"x": 756,
+						"y": 391,
+						"w": 100,
+						"h": 40
+					}
+				},
+				{
+					"filename": "luz-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 61,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 59,
+						"h": 50
+					},
+					"frame": {
+						"x": 919,
+						"y": 359,
+						"w": 59,
+						"h": 50
+					}
+				},
+				{
+					"filename": "pin-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 744,
+						"y": 845,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "multiplicador-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 40
+					},
+					"frame": {
+						"x": 802,
+						"y": 860,
+						"w": 100,
+						"h": 40
+					}
+				},
+				{
+					"filename": "luz-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 61,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 59,
+						"h": 50
+					},
+					"frame": {
+						"x": 858,
+						"y": 391,
+						"w": 59,
+						"h": 50
+					}
+				},
+				{
+					"filename": "luz-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 61,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 59,
+						"h": 50
+					},
+					"frame": {
+						"x": 919,
+						"y": 411,
+						"w": 59,
+						"h": 50
+					}
+				},
+				{
+					"filename": "triangulo-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 72
+					},
+					"frame": {
+						"x": 530,
+						"y": 766,
+						"w": 55,
+						"h": 72
+					}
+				},
+				{
+					"filename": "bola",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 54,
-						"h": 6
+						"h": 54
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 54,
-						"h": 6
+						"h": 54
 					},
 					"frame": {
-						"x": 680,
-						"y": 781,
+						"x": 530,
+						"y": 840,
 						"w": 54,
-						"h": 6
+						"h": 54
+					}
+				},
+				{
+					"filename": "multiplicador-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 40
+					},
+					"frame": {
+						"x": 802,
+						"y": 902,
+						"w": 100,
+						"h": 40
+					}
+				},
+				{
+					"filename": "triangulo-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 74
+					},
+					"frame": {
+						"x": 904,
+						"y": 860,
+						"w": 57,
+						"h": 74
+					}
+				},
+				{
+					"filename": "pin-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 54,
+						"h": 54
+					},
+					"frame": {
+						"x": 912,
+						"y": 722,
+						"w": 54,
+						"h": 54
+					}
+				},
+				{
+					"filename": "luz-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 61,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 59,
+						"h": 50
+					},
+					"frame": {
+						"x": 821,
+						"y": 443,
+						"w": 59,
+						"h": 50
 					}
 				},
 				{
@@ -360,8 +759,8 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 480,
-						"y": 724,
+						"x": 588,
+						"y": 404,
 						"w": 14,
 						"h": 14
 					}
@@ -372,6 +771,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:c197ca54fe438997013aab2022986da6:63cc62d52781cbc67695115dedfd41ba:b0aaf1d83b249379127b77b595bb46e3$"
+		"smartupdate": "$TexturePacker:SmartUpdate:6b0b745455223aed4c5dc64fecf04428:0af465866d5a298da8ccfbbf3b98bb60:b0aaf1d83b249379127b77b595bb46e3$"
 	}
 }
