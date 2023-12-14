@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "anim-logo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-01"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-02"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-03"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-04"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-05"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-06"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-07"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-08"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-09"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-10"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-11"
+                },
+                {
+                    "key": "AtlasLogoAnimado",
+                    "frame": "logo-12"
+                }
+            ]
+        }
+    ]
+}
